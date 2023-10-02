@@ -1,0 +1,29 @@
+
+<suite name="Suite">
+
+   <parameter name="URL" value="http://www.facebook.com"/>
+  <test name="Chrome Test">
+    <parameter name="BroName" value="Chrome"/>
+  
+    <classes>
+  	<class name="TestNG1.MultiBro2"/>
+    </classes>
+  </test>
+  
+  
+  <test name="firefoxTest">
+  <parameter name="BroName" value="Firefox"/>
+  <classes>
+  	<class name="TestNG1.MultiBro2"/>
+  	
+  </classes>
+  </test> 
+  
+  
+  <test name="EdgeTest">
+  <parameter name="BroName" value="Edge"/>
+  <classes>
+  	<class name="TestNG1.MultiBro2"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestNG_Suite.Disable2">
+      <methods>
+      	<include name="TC1"/>
+      	<include name="TC3"/>
+      	<include name="TC4"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

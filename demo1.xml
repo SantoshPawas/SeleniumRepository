@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestNG_Suite.Test2"/>
+      <methods>
+      	<include name="TC3"/>
+      </methods>
+      <class name="TestNG_Suite.Test3"/>
+      <methods>
+      <include name="TC6"></include>
+      </methods>
+      <class name="TestNG_Suite.Test1"/>
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed Suite -->

@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="URL" value="https://www.facebook.com"/> 
+  <classes>
+  	<class name="Annotations2.ParameterDDemo"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

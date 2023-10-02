@@ -1,0 +1,25 @@
+
+<suite name="Suite" parallel="tests">
+  <test  name="TestChrome">
+  <parameter name="BroName" value="Chrome"/>
+  <classes>
+  	<class name="TestNG1.MultiBro"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TesstFirefox">
+  <parameter name="BroName" value="Firefox"/>
+  <classes>
+  	<class name="TestNG1.MultiBro"/>
+  </classes>
+  </test>
+  
+  
+  <test name="TestEdge">
+  <parameter name="BroName" value="Edge"/>
+  <classes>
+  	<class name="TestNG1.MultiBro"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     
+      <class name="Annotations2.Two"/>
+       <class name="Annotations2.Five"/>
+      <class name="Annotations.One"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  	<classes>
+  		 <class name="Annotations.Three"/>
+  		 <class name="Annotations2.Four"/>
+  		 <class name="Annotations2.Six"/>
+  	</classes>
+  </test>><!--Test2-->
+</suite> <!-- Suite -->
